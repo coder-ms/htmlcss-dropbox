@@ -65,18 +65,90 @@ header nav{
 h1{
     font-size: 76px;
     font-weight: bold;
-    text-align: center;
 }
 #hero img{
-    width: 100%;
+    width: 90%;
 }
+
+
+/*
+#####################################################
+Main
+#####################################################
+*/
+
 /*
 #####################################################
 FOOTER
 #####################################################
 */
+
 footer{
+    width: 100%;
+    background-color: var(--black);
+    min-height: 100px;
+}
+li img{
+    width: 30px;
+}
+li{
+    color: var(--white);
+    padding: 5px 0;
+}
+.flexcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+}
+ul{
+    list-style: none;
+    width: calc(100% / 5);
+}
+hr{
+    width: 100px;
+    margin-top: 50px;  
+    border: 1px solid var(--white);
+
+
+}
+.endflex{
+    display: flex;
+    width: 80%;
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+li h4{
+    color: var(--indaco);
+    margin-top: 30px;
+    font-size: 30px;
+}
+li h3{
+    color: var(--indaco);
+    padding-bottom: 10px;    
+}
+
+li a:hover{
     background-color: var(--black);
     color: var(--white);
+}
+li{
+    margin-top: 5px;
+}
+li a{
+    color: var(--white);
+    text-decoration: none;
+    font-size: 18px;
+}
+.info{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
