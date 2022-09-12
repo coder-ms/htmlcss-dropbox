@@ -7,7 +7,7 @@ COMMON
     --white: white;
     --lightblue:#b4d0e7;
     --black: black;
-    --blue: rgb(43, 90, 219);
+    --azure: rgb(43, 90, 219);
 }
 *{
     margin: 0;
@@ -27,7 +27,7 @@ header{
 }
 .container-small{
     max-width: 1000px;
-    margin: 150px auto;
+    margin: 0 auto;
 }
 .d-flex{
     display: flex;
@@ -43,39 +43,64 @@ header{
 HEADER
 #####################################################
 */
-header nav{
+.rectangle{
     height: 80px;
     width: 100%;
-    background-color: var(--white);
+    background-color: aliceblue;
     position: fixed;
-    top: 0;
-    left: 0;
+    margin: 0 auto;
     z-index: 1000;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+}
+.rectangle img{
+    width: 120px;
+    height: 50px;
+    padding-top: 25px;
+    margin-left: 20px;
+    
+}
+.header-left, .header-right{
+    width: 550px;
+    height: 60px;
+    display: flex;    
 }
 .header-left{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    align-items: left;    
 }
-.header-right{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
+.header-right {
+    align-items: right;    
 }
-
-.col-header{
-    height: 100px;
-    width: 50%;
-    margin: 0 auto;
-    background-color: balck;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 10px;
+.header-left ul li{
+    margin-left: 30px;   
+}
+.header-right ul li{
+    margin-left: 30px;   
+}
+.header-left ul li, .header-right ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 30px 0;
+}
+.header-left ul li a, .header-right ul li a{
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+.b-inizia{
+    background-color: var(--azure);
+    text-align: center;
+    width: 60px;
+    margin-top: 25px;
+    margin-left: 60px;
+    height: 30px;
+    color: white;
+    border: 1px solid var(--azure);
 }
 #hero{
     background-color: var(--lightblue);
-    margin-top: 80px;
 }
 #hero .container{
     position: relative;
@@ -85,32 +110,16 @@ header nav{
 h1{
     font-size: 76px;
     font-weight: bold;
-}
-.header ul li img{
-    width: 150px;
-    margin-top: 20px;
-    margin-left: 5px;
-}
-.header ul li{
-    list-style: none;
-    display: inline-block;
-    flex-direction: row-reverse;
-    justify-content: left; 
-    flex-direction: row;  
-    margin: 0 20px 20px 10px;  
-}
-.header ul li a{
-    color: var(--black);
-    align-items: center;
-    text-decoration: none;  
+    padding-top: 80px;
 }
 
 #hero img{
     width: 90%;
 }
+
 /*
 #####################################################
-Main
+MAIN
 #####################################################
 */
 
@@ -150,7 +159,7 @@ li{
     height: 300px;
     width: 50%;
     margin: 0 auto;
-    background-color: balck;
+    background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
