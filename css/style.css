@@ -164,7 +164,7 @@ label{
 }
 .box{
     width: 15vw;
-    border: 1px solid var(--black);
+    border: 1px solid black;
     justify-content: space-between;
     align-items: center;
     margin: 10px 0;
@@ -174,12 +174,12 @@ label{
     width: 15vw;
     display: flex;
     justify-content: center;
-    border-bottom: 1px solid var(--black);
+    border: 1px solid black;
 }
 .box-big{
     height: 300px;
     width: 100%;
-    border: 1px solid var(--black);
+    border: 1px solid black;
     align-items: center;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -189,7 +189,7 @@ label{
     width: 100%;
     display: flex;
     justify-content: center;
-    border-bottom: 1px solid var(--black);
+    border: 1px solid black;
 }
 .title i, .title-big i{
     padding-right: 5px;
@@ -198,17 +198,15 @@ label{
 .info-container{
     width: 100%;
     display: flex;
-    border-bottom: 1px solid var(--black);
+    flex-direction: column;
 }
 .box-button{
     width: 100%;
     display: flex;
     padding: 20px 20px;
-    border-bottom: 1px solid var(--black);
 }
 .type{
     width: 100%;
-    border-bottom: 1px solid var(--black);
     padding: 30px 20px;
 }
 .icon-info{
@@ -231,16 +229,11 @@ label{
     border: 1px solid var(--azure);
     cursor: pointer;
 }
-.info-big h3{
-    padding-right: 300px;
+.info-container, .icon-info ul li p{
+    padding: 10px;
 }
-
-.info h4, .info-big h4{
-    padding: 5px 0;
-}
-.info-container .icon ul li p{
-    margin-bottom: 0px;
-    font-size: 12px;
+.info-container, .icon-info ul li i{
+    padding: 10px;
 }
 /*
 #####################################################
@@ -257,7 +250,7 @@ li img{
     width: 30px;
 }
 li{
-    color: var(--white);
+    color: var(--black);
     padding: 5px 0;
 }
 .flexcontainer{
