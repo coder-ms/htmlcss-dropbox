@@ -25,7 +25,7 @@ header{
     max-width: 1200px;
     margin: 0 auto;
 }
-.container-small{
+.container-small, .container-small-box{
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -87,7 +87,7 @@ HEADER
     cursor: pointer;
     font-size: 14px;
     text-decoration: none;
-    color: black;
+    color: var(--black);
 }
 .b-inizia{
     background-color: var(--azure);
@@ -138,13 +138,95 @@ h1{
 MAIN
 #####################################################
 */
-#piani{
-    padding-top: 120px;
-    padding-bottom: 80px;
+.container-small{
+    padding-top: 100px;
+    padding-bottom: 20px;
 }
 h2{
-    font-size: 30px;
     padding-bottom: 60px;
+    font-size: 35px;
+}
+input[type=radio]{
+    margin-bottom: 30px;
+}
+label{
+    padding-right: 20px;  
+}
+.col-main{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box ul li{
+    list-style: none;
+}
+.box{
+    height: 500px;
+    width: 15vw;
+    margin: 0 auto;
+    border: 1px solid var(--black);
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+.title{
+    padding: 10px 0;
+    width: 15vw;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid var(--black);
+}
+.box-big{
+    height: 300px;
+    width: 100%;
+    border: 1px solid var(--black);
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.title-big{
+    padding: 10px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid var(--black);
+}
+.title i, .title-big i{
+    padding-right: 5px;
+}
+.info, .info-big{
+    padding: 30px 20px;
+}
+.b-contatta{
+    background-color: var(--azure);
+    text-align: center;
+    width: 250px;
+    height: 30px;
+    color: white;
+    border: 1px solid var(--azure);
+    cursor: pointer;
+}
+.info-big h3{
+    padding-right: 300px;
+}
+.info h4, .info-big h4{
+    padding: 10px 0;
+}
+.info p, .info-big p{
+    font-size: 13px;
+}
+.info ul li i{
+    color: var(--black);
+    padding-top: 5px;
+}
+.info ul li{
+    color: var(--black);
+    padding-left: 5px;
+}
+.info i{
+    margin-right: 3px;
 }
 /*
 #####################################################
@@ -182,7 +264,7 @@ li{
     height: 300px;
     width: 50%;
     margin: 0 auto;
-    background-color: black;
+    background-color: var(--black);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -208,7 +290,7 @@ li{
 .language{
     padding: 30px 0;
     border-top: 2px solid grey;
-    background-color: black;
+    background-color: var(--black);
     justify-content: space-between;
     width:  120px;
 }
