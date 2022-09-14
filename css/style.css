@@ -85,19 +85,20 @@ HEADER
 }
 .header-left ul li a, .header-right ul li a{
     cursor: pointer;
-    font-size: 14px;
+    font-size: 16px;
     text-decoration: none;
     color: var(--black);
 }
 .b-inizia{
     background-color: var(--azure);
     text-align: center;
-    width: 60px;
+    width: 80px;
     margin-top: 25px;
     height: 30px;
     color: white;
     border: 1px solid var(--azure);
     cursor: pointer;
+    font-size: 16px;
 }
 #hero{
     background-color: var(--lightblue);
@@ -503,7 +504,7 @@ li img{
 }
 li{
     color: var(--black);
-    padding: 5px 0;
+    padding: 10px 0;
 }
 .flexcontainer{
     display: flex;
@@ -541,6 +542,7 @@ li{
 .col-footer ul li a{
     color: var(--white);
     text-decoration: none;
+    padding: 10px 0;
 }
 .col-footer ul li a:hover{
     background-color: var(--black);
