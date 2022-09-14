@@ -370,6 +370,79 @@ label{
     font-size: 17px;
 }
 
+.logos{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    width: 100%;
+    height: 33vw;
+    display: flex;
+
+}
+.square1, .square2, .square3{
+    height: 33vw;
+    width: 100%;
+}
+.box-square{
+    height: 16.5vw;
+    width: 33vw;
+    display: flex;
+}
+.square1{
+    background-color: wheat;
+}
+.square2{
+    background-color: #f5f5f5;
+    padding: 40px;
+}
+.square2 img{
+    width: 50%;
+}
+.square2 p{
+    font-size: 17px;
+    margin-bottom: 60px;
+}
+.square3{
+    background-color: antiquewhite;
+}
+.small-square1, .small-square2, .small-square3, .small-square4, .small-square5, .small-square6, .small-square7, .small-square8{
+    height: 16.5vw;
+    width: 100%;
+}
+
+.small-square1{
+    background-color: #a2d39b;
+}
+.small-square2{
+    background-color: #61082b;
+}
+.small-square3{
+    background-color: #0093ce;
+}
+.small-square4{
+    background-color: #ff1c1c;
+}
+.small-square5{
+    background-color: #d5001f;
+}
+.small-square6{
+    background-color: #b4d0e7;
+}
+.small-square7{
+    background-color: #0d2481;
+}
+.small-square8{
+    background-color: #ffd830;
+}
+.small-square1 img, .small-square2 img, .small-square3 img, .small-square4 img, .small-square5 img, .small-square6 img, .small-square7 img, .small-square8 img{
+    width: 100%;
+    padding: 60px 60px;
+}
+.HR-square{
+    margin-right: 410px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 /*
 #####################################################
 FOOTER
@@ -392,7 +465,6 @@ li{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
     margin: 0 auto;
     padding-top: 40px;
 }
