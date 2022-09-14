@@ -167,6 +167,7 @@ label{
 }
 .box{
     width: 15vw;
+    height: 900px;
     border: 1px solid black;
     justify-content: space-between;
     align-items: center;
@@ -234,22 +235,19 @@ label{
     margin: 30px 20px;
     width: 50px;
 }
-.icon-info, .icon-info-sx, .icon-info-dx{
+.icon-info{
     width: 100%; 
     display: flex;
 }
 
-.icon, .icon-sx, .icon-dx{
+.icon{
     width: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.descr, .descr-dx, .descr-dx{
+.descr{
     width: 75%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .b-contatta{
@@ -267,30 +265,15 @@ label{
     justify-content: center;
     align-items: center;
 }
-.info-container-sx, .icon-info-sx ul li i{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.info-container-dx, .icon-info-dx ul li i{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.info-container, .info-container-sx, .info-container-dx{
+.info-container{
     font-size: 15px;
 }
 
 .icon-info .icon ul li{
     color: var(--azure);
 }
-.icon-info-sx .icon-sx ul li{
-    color: var(--azure);
-}
-.icon-info-dx .icon-dx ul li{
-    color: var(--azure);
-}
+
 .fa-user, .fa-folder, .fa-share-nodes{
     color: black;
 }
@@ -346,16 +329,19 @@ label{
     font-size: 15px;
 }
 
+.brochure-title h2{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
 .brochure-main{
     width: 100%;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 80px;
 }
 .brochure{
-    margin-top: 30px;
+    margin-top: 10px;
     width: 30%;
     justify-content: space-between;
     align-items: center;
