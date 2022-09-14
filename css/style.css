@@ -168,7 +168,7 @@ label{
 .box{
     width: 15vw;
     height: 900px;
-    border: 1px solid black;
+    border: 1px solid #d7d7da;
     justify-content: space-between;
     align-items: center;
     margin: 10px 0;
@@ -178,12 +178,12 @@ label{
     width: 15vw;
     display: flex;
     justify-content: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #d7d7da;
 }
 .box-big{
     height: 300px;
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid #d7d7da;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -192,11 +192,9 @@ label{
     width: 100%;
     display: flex;
     justify-content: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #d7d7da;
 }
-.title i, .title-big i{
-    padding-right: 0px;
-}
+
 .info-container, .info-container-sx, .info-container-dx{
     width: 100%;
     display: flex;
@@ -317,7 +315,7 @@ label{
 .info-partner button{
     background-color: white;
     height: 40px;
-    width: 150px;
+    width: 155px;
     font-size: 15px;
 }
 .brochure-title {
@@ -361,12 +359,18 @@ label{
 .brochure-info p{
     font-size: 17px;
 }
-.flexcontainer-1{
+.flexcontainer-1, .flexcontainer-2{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.flexcontainer-1{
     background-color: #b4d0e7;
     height: 15vw;
+}
+.flexcontainer-2{
+    background-color: var(--white);
+    height: 35vw;
 }
 .logos{
     margin-top: 10vh;
@@ -450,21 +454,39 @@ label{
     width: 60%;
     padding: 30px 30px;
 }
-.info-partner{
-    width: 40%;
-    padding: 30px;
+.faq{
+    width: 100%;
+    padding: 10px 10px;
+}
+.faq h3{
+    font-size: 40px;
+    margin-bottom: 5vw;
+    color: var(--black);
 }
 .question h3{
     font-size: 40px;
     margin-bottom: 50px;
     color: #61082b;
 }
-.info-partner button{
+.info-partner-1 button{
     background-color: white;
     height: 40px;
     width: 250px;
     font-size: 15px;
+    margin-top: 40px;
 }
+.questions hr{
+    margin: 40px 0;
+}
+.questions span{
+    display: flex;
+    justify-content: space-between; 
+    font-weight: bold;
+}
+.questions i{
+    font-weight: bold; 
+}
+
 /*
 #####################################################
 FOOTER
@@ -530,6 +552,7 @@ li{
     background-color: var(--black);
     justify-content: space-between;
     width:  120px;
+    margin-left: 200px;
 }
 .language span{
     color: grey;
