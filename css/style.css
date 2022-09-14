@@ -244,16 +244,23 @@ label{
     width: 75%;
 }
 
-.b-contatta{
+.b-contatta, .b-contatta1{
     background-color: var(--azure);
     text-align: center;
     width: 250px;
-    height: 30px;
     color: white;
     border: 1px solid var(--azure);
     cursor: pointer;
 }
-
+.b-contatta{
+    height: 30px;
+    font-size: 15px;
+    margin: 0 auto;
+}
+.b-contatta1{
+    height: 40px;
+    font-size: 15px;
+}
 .info-container, .icon-info ul li i{
     display: flex;
     justify-content: center;
@@ -279,14 +286,18 @@ label{
 .big-70{
     width: 70%;
     padding: 20px 20px;
+    margin-top: 15px;
 }
 .big-70 h4{
-    margin: 15px 0;
+    margin-top: 15px;
+    margin-bottom: 45px;
 }
+
 .big-30{
     width: 30%;
     display: flex;
     padding: 20px 20px;
+    margin-top: 15px;
 }
 
 .box-img{
