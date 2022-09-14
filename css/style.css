@@ -328,10 +328,17 @@ label{
     width: 150px;
     font-size: 15px;
 }
-
-.brochure-title h2{
+.brochure-title {
     margin-top: 100px;
     margin-bottom: 20px;
+}
+.brochure-title h2{
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.brochure-title a{
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
 .brochure-main{
     width: 100%;
