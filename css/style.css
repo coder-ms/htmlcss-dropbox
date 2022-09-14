@@ -162,6 +162,9 @@ label{
 .box ul li{
     list-style: none;
 }
+.icon-info .icon ul li span{
+    color: black;
+}
 .box{
     width: 15vw;
     border: 1px solid black;
@@ -193,31 +196,62 @@ label{
 .title i, .title-big i{
     padding-right: 0px;
 }
-.info-container{
+.info-container, .info-container-sx, .info-container-dx{
     width: 100%;
     display: flex;
     flex-direction: column;
+}
+.title-check, .title-check-sx, .title-check-dx{
+    padding: 10px 0;
+    width: 15vw;
+    height: 60px;
+    display: flex;
+    justify-content: center;    
 }
 .box-button{
     width: 100%;
     display: flex;
     padding: 20px 20px;
 }
+.info-container{
+    margin-bottom: 20px;
+}
+.info-container-sx{
+    margin-bottom: 120px;
+}
+.info-container-dx{
+    margin-bottom: 120px;
+}
 .type{
     width: 100%;
     padding: 30px 20px;
 }
-.icon-info{
+.type h4{
+    margin: 15px 0;
+}
+.HR-box{
+    color: grey;
+    margin: 30px 20px;
+    width: 50px;
+}
+.icon-info, .icon-info-sx, .icon-info-dx{
     width: 100%; 
     display: flex;
 }
-.icon{
+
+.icon, .icon-sx, .icon-dx{
     width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.descr{
+.descr, .descr-dx, .descr-dx{
     width: 75%;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .b-contatta{
     background-color: var(--azure);
     text-align: center;
@@ -227,8 +261,38 @@ label{
     border: 1px solid var(--azure);
     cursor: pointer;
 }
-.info-container, .icon-info ul li p, i{
-    padding: 10px;
+
+.info-container, .icon-info ul li i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-container-sx, .icon-info-sx ul li i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-container-dx, .icon-info-dx ul li i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-container, .info-container-sx, .info-container-dx{
+    font-size: 15px;
+}
+
+.icon-info .icon ul li{
+    color: var(--azure);
+}
+.icon-info-sx .icon-sx ul li{
+    color: var(--azure);
+}
+.icon-info-dx .icon-dx ul li{
+    color: var(--azure);
+}
+.fa-user, .fa-folder, .fa-share-nodes{
+    color: black;
 }
 .info-big{
     width: 100%;
@@ -240,7 +304,7 @@ label{
     padding: 20px 20px;
 }
 .big-70 h4{
-    margin: 20px 0;
+    margin: 15px 0;
 }
 .big-30{
     width: 30%;
@@ -280,6 +344,37 @@ label{
     height: 40px;
     width: 150px;
     font-size: 15px;
+}
+
+.brochure-main{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.brochure{
+    margin-top: 30px;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+}
+.brochure-img{
+    width: 100%;
+}
+.brochure-img img{
+    width: 100%;
+}
+.brochure-info{
+    padding: 10px 0;
+}
+.brochure-info h3{
+    font-size: 25px;
+    margin: 10px 0;
+}
+.brochure-info p{
+    font-size: 17px;
 }
 
 /*
